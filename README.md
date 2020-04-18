@@ -22,6 +22,7 @@ Movie Info Service commuicates with an external service https://www.themoviedb.o
 
 
 
+
 Requirements :
 
 #add pom.xml file You need to add pom.xml with the maven dependencies
