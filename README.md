@@ -47,13 +47,13 @@ Create a 3rd database named RatingsDataDB. Create a table named rating_info and 
 
 #Create an api key from themoviedb site and include in application.properties of Movie Info Service
 
-Start the Discovery Application Server Application first which runs on port 8761
-Runs all three microservices which are registered which the Eureka Server
-Access http://localhost:8761 to see Eureka Discovery Server Dashboard and verify that all 3 microservices are up and registered
-Access http://localhost:8081/hystrix to view the Hystrix Dashboard
-Access http://localhost:8081/catalog/user_name to access Movie Catalog Microservice
-Access http://localhost:8082/movies/movie_id to access Movie Info Service
-Access http://localhost:8083/ratingsdata/user/user_name to access Ratings Data Service
-Microservice running on port 8081 consumes the services running on port 8082 and port 8083
+1. Start the Discovery Application Server Application first which runs on port 8761
+2. Runs all three microservices which are registered which the Eureka Server
+3. Access http://localhost:8761 to see Eureka Discovery Server Dashboard and verify that all 3 microservices are up and registered
+4. Access http://localhost:8081/hystrix to view the Hystrix Dashboard
+5. Access http://localhost:8081/catalog/user_name to access Movie Catalog Microservice
+6. Access http://localhost:8082/movies/movie_id to access Movie Info Service
+7. Access http://localhost:8083/ratingsdata/user/user_name to access Ratings Data Service
+8. Microservice running on port 8081 consumes the services running on port 8082 and port 8083
 
 
