@@ -18,8 +18,6 @@ Fallback methods are added for both the Microservice calls using Hystrix
 
 Movie Info Service commuicates with an external service https://www.themoviedb.org/ using an API key in RestTemplate
 
-
-
 Requirements :
 
 #add pom.xml file You need to add pom.xml with the maven dependencies
@@ -37,9 +35,12 @@ Open the Port 3306 for your local machine IP
 Connect to the first mysql DB MovieCatalogDB creating from AWS RDS console. Create a table named movie_catalogue and insert sample data
 Create a 2nd database named MovieInfoDB. Create a table named movie_info and insert sample data
 Create a 3rd database named RatingsDataDB. Create a table named rating_info and insert sample data
+
 #Update the DB credentials and Sever Port in application.properties file for every microservices project
+
 #include management.endpoints.web.exposure.include=hystrix.stream for hystrix
 
+#Create an api key from themoviedb site and include in application.properties of Movie Info Service
 
 Start the Discovery Application Server Application first which runs on port 8761
 Runs all three microservices which are registered which the Eureka Server
