@@ -18,7 +18,7 @@ Fallback methods are added for both the Microservice calls using Hystrix
 
 Movie Info Service commuicates with an external service https://www.themoviedb.org/ using an API key in RestTemplate
 
-<img width="50" alt="API Architecture" src="https://github.com/dineschandgr/MicroServices_Fault_Tolerance/blob/master/API_Architecture.jpg">
+<img width="300" alt="API Architecture" src="https://github.com/dineschandgr/MicroServices_Fault_Tolerance/blob/master/API_Architecture.jpg">
 
 
 
