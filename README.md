@@ -21,7 +21,6 @@ Movie Info Service commuicates with an external service https://www.themoviedb.o
 ![API Diagram] (/API_Architecture.jpg)
 <img width="964" alt="java 8 and prio java 8  array review example" src="https://github.com/jaimehernan95/arrayReview-java/blob/master/images/%20arrayExample.png">
 
-<img width="964" alt="java 8 and prio java 8  array review example" src="https://github.com/dineschandgr/MicroServices_Fault_Tolerance/blob/master/API_Architecture.jpg">
 
 
 Requirements :
