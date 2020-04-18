@@ -18,8 +18,6 @@ Fallback methods are added for both the Microservice calls using Hystrix
 
 Movie Info Service commuicates with an external service https://www.themoviedb.org/ using an API key in RestTemplate
 
-![API Diagram] (https://raw.githubusercontent.com/dineschandgr/MicroServices_Fault_Tolerance/master/API_Architecture.bmp)
-![header image](https://raw.github.com/KrisKasprzak/ILI9341_t3_controls/master/Equalizer.jpg)
 Requirements :
 
 #add pom.xml file You need to add pom.xml with the maven dependencies
